@@ -15,6 +15,9 @@ int main(){
 	std::cout << "Patch: " << metadata::versionPatch << '\n';
 	std::cout << std::endl;
 
+	static constexpr auto cv = 90;
+	std::cout << "static constexpr auto cv = " << cv << '\n';
+	std::cout << "getFrom3WayOperator(): " << std::boolalpha << getFrom3WayOperator() << '\n';
 	std::cout << "Call to lib function: " << getInt() << '\n';
 
 	return 0;
