@@ -14,6 +14,7 @@
 Submodules/
 
 # Build results
+[Oo]ut/
 [Bb]uild*/
 [Dd]ebug/
 [Dd]ebugPublic/

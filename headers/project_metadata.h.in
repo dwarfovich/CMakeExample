@@ -1,7 +1,0 @@
-namespace metadata {
-    constexpr auto projectName  = "@PROJECT_NAME@";
-    constexpr auto version      = "@CMakeExample_VERSION@";
-    constexpr auto versionMajor = @CMakeExample_VERSION_MAJOR@;
-    constexpr auto versionMinor = @CMakeExample_VERSION_MINOR@;
-    constexpr auto versionPatch = @CMakeExample_VERSION_PATCH@;
-}
