@@ -1,5 +1,5 @@
 @echo off
 
-cmake -B build
-cmake --build build
+cmake -B build || exit /b
+cmake --build build || exit /b
 build\Debug\run_example.exe
