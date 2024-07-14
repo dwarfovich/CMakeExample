@@ -7,6 +7,7 @@
 int main(){
 	std::cout << std::endl;
 	std::cout << "Hello, CMake!\n";
+	std::cout << "Hello, VSCode!\n";
 
 	std::cout << "Project name: " << metadata::projectName << '\n';
 	std::cout << "Version: " << metadata::version << '\n';
